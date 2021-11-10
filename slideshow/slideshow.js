@@ -6,11 +6,15 @@ function moveRight () {
 	if(index < 4){
 		index = index + 1
 		document.getElementById("1").src = ''
+		document.getElementById("1").height = 200
+		document.getElementById("1").width = 200
 		document.getElementById("1").src = "pictures/" + pictureArr[index]
 	}
 	else if(index == 4){
 		index = 0;
 		document.getElementById("1").src = ''
+		document.getElementById("1").height = 200
+		document.getElementById("1").width = 200
 		document.getElementById("1").src = "pictures/" + pictureArr[index]
 	}
 }
@@ -19,11 +23,15 @@ function moveLeft () {
 	if(index > 0){
 		index = index - 1
 		document.getElementById("1").src = ''
+		document.getElementById("1").height = 200
+		document.getElementById("1").width = 200
 		document.getElementById("1").src = "pictures/" + pictureArr[index]
 	}
 	else if(index == 0){
 		index = 4;
 		document.getElementById("1").src = ''
+		document.getElementById("1").height = 200
+		document.getElementById("1").width = 200
 		document.getElementById("1").src = "pictures/" + pictureArr[index]
 	}
 
