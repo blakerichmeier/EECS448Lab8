@@ -1,12 +1,15 @@
 function changeBorderColor() {
-        var myColor1 = document.getElementById("2");
+        var myColor1Red = document.getElementById("2");
+	var myColor1Green = document.getElementById("3");
+	var myColor1Blue = document.getElementById("4");
 
-        if(myColor1.value == "red" || myColor1.value == "green" || myColor1.value == "blue"){
-        console.log(myColor1)
+        //if(myColor1.value == "red" || myColor1.value == "green" || myColor1.value == "blue"){
+        //console.log(myColor1)
         var someTag = document.getElementById("1"); 
         //Change the style attribute 
-        someTag.style.borderColor = myColor1.value;
-        }
+        someTag.style.borderColor = myColor1Red.value + myColor1Green.value + myColor1Blue.value;
+	console.log(someTag)
+        //}
 };
 
 function changeBorderWidth() {
@@ -21,12 +24,12 @@ function changeBorderWidth() {
 };
 
 function changeBackgroundColor() {
-    var myColor3 = document.getElementById("4");
-
-    if(myColor3.value == "red" || myColor3.value == "green" || myColor3.value == "blue"){
-    console.log(myColor3)
+    var myColor3Red = document.getElementById("6");
+	var myColor3Green = document.getElementById("7");
+	var myColor3Blue = document.getElementById("8");
+    //if(myColor3.value == "red" || myColor3.value == "green" || myColor3.value == "blue"){
     var someTag2 = document.getElementById("1"); 
     //Change the style attribute 
-    someTag2.style.backgroundColor = myColor3.value;
-    }
+    someTag2.style.backgroundColor = myColor3Red.value + myColor3Green.value + myColor3Blue.value;
+    //}
 };
