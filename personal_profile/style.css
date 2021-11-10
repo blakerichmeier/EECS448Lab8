@@ -1,0 +1,27 @@
+body
+{
+	background-color: orange;
+	background-image: url(jayhawk.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+text
+{
+	background-color: red;
+	color: white;
+	family: serif;
+	font-size: 12pt;
+}
+
+text:hover
+{
+	background-color: blue;
+}
+
+text.christmas
+{
+	background-color: red;
+	color: green;
+}
+
