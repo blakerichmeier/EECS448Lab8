@@ -1,0 +1,16 @@
+body
+{
+    color: black;
+    background-color: orange;
+    border-width: 5;
+}
+
+text
+{
+    color: black;
+    border-color: black;
+    background-color: blue;
+    border-width: 5;
+    background-Color: White;
+    border-style:ridge;
+}
